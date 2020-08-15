@@ -2,7 +2,7 @@
 Admin system, to store all info about resource, mange contact between users, sort employees, suppliers 
 
 
-<img src="myapp.PNG">
+<img src="mapp.PNG">
 
 * Shecem1 Relational DataBase
 
