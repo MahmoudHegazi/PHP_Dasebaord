@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=Your API key&lang=en_US" type="text/javascript">
+    </script>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+    <div id="map" style="width: 600px; height: 400px"></div>
+
+<script type="text/javascript">
+    // The ymaps.ready() function will be called when
+    // all the API components are loaded and the DOM tree is generated.
+    ymaps.ready(init);
+    function init(){ 
+        // Creating the map.    
+        var myMap = new ymaps.Map("map", {
+            // The map center coordinates.
+            // Default order: “latitude, longitude”.
+            // To not manually determine the map center coordinates,
+            // use the Coordinate detection tool.
+            center: [55.76, 37.64],
+            // Zoom level. Acceptable values:
+            // from 0 (the entire world) to 19.
+            zoom: 7
+        });
+    }
+</script>
+</body>
+</html>
