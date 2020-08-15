@@ -7,3 +7,7 @@ map API (free) no need google
 
 * https://tech.yandex.com/maps/jsapi/?from=mapsapi
 * https://tech.yandex.com/maps/jsapi/doc/2.1/quick-start/index-docpage/
+
+
+### templates:
+* https://colorlib.com/wp/free-html5-admin-dashboard-templates/
